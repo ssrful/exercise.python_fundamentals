@@ -73,7 +73,7 @@
     4. open a module to be edited (`calculator.py`)
     5. run corresponding tests for the module to be edited (`calculator_test.py`)
 
-<a href="./getting-started.gif"><img src="./getting-started.gif"></a>
+<a href="https://raw.githubusercontent.com/platformps/exercise.python_fundamentals/master/getting-started.gif"><img src="./getting-started.gif"></a>
     
     
 ### Running Tests From Command Line 
@@ -83,4 +83,4 @@
     3. using `unittest`, run all python files with a prefix of `_test.py`
         * `python -m unittest discover -s ./src/test/ -p '*_test.py'`
         
-<a href="./run-tests-cli.gif"><img src="./run-tests-cli.gif"></a>
+<a href="https://raw.githubusercontent.com/platformps/exercise.python_fundamentals/master/run-tests-cli.gif"><img src="./run-tests-cli.gif"></a>
