@@ -1,11 +1,11 @@
 # Created by Leon Hunter at 11:23 AM 10/24/2020
+import unittest
 from numbers import Number
-from unittest import TestCase
 
 from src.main.calculator import Calculator
 
 
-class CalculatorTest(TestCase):
+class CalculatorTest(unittest.TestCase):
     def _test(self, method_to_test, value_sets):
         for value_set in value_sets:
             # given
@@ -75,3 +75,7 @@ class CalculatorTest(TestCase):
             (8, 5, 1.6),
             (21, 13, 1.615),
         ])
+
+
+if __name__ == '__main__':
+    unittest.main()
