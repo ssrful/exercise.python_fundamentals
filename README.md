@@ -32,6 +32,8 @@
 4. Upon completion, open and run the `TestSuite` class to ensure that all tests have 100% success.
     * `TestSuite` is located in `src.main.java.com.github.perscholas.java_fundamentals`
 
+<hr><hr>
+
 ## Demonstrations
 ### Opening in PyCharm
 * The purpose of this animation is to demonstrate how to
