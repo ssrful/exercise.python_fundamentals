@@ -15,7 +15,7 @@
     * [arrays]()
     * [for loops]()
 	
-### **Instructions:**
+## **Instructions:**
 
 1. Fork this Repository
     * [fork](https://help.github.com/articles/fork-a-repo/) this repository to your personal github account 
@@ -31,6 +31,31 @@
     * There are comments above each method stub to describe the expected behavior.
 4. Upon completion, open and run the `TestSuite` class to ensure that all tests have 100% success.
     * `TestSuite` is located in `src.main.java.com.github.perscholas.java_fundamentals`
+
+## Demonstrations
+### Opening in PyCharm
+* The purpose of this animation is to demonstrate how to
+    1. clone this project from the Github Web interface to your local machine
+    2. navigate to the root directory of the project
+    3. open the newly cloned project from your local machine in PyCharm
+    4. open a module to be edited (`calculator.py`)
+    5. run corresponding tests for the module to be edited (`calculator_test.py`)
+
+<a href="https://raw.githubusercontent.com/platformps/exercise.python_fundamentals/master/getting-started.gif"><img src="./getting-started.gif"></a>
+    
+    
+### Running Tests From Command Line 
+* The purpose of this animation is to demonstrate how to
+    1. clone this project from the Github Web interface to your local machine
+    2. navigate to the root directory of the project
+    3. using `unittest`, run all python files with a prefix of `_test.py`
+        * `python -m unittest discover -s ./src/test/ -p '*_test.py'`
+        
+<a href="https://raw.githubusercontent.com/platformps/exercise.python_fundamentals/master/run-tests-cli.gif"><img src="./run-tests-cli.gif"></a>
+
+
+
+<hr><hr>
 
 ## Predicate Utilities
 * A _predicate_ is a clause which states something about a subject. (_e.g., **is assigning**_ in _"Leon **is assigning** homework"_)
@@ -62,25 +87,3 @@
     * `get_first_word(string_to_fetch_from)`
     * `get_second_word(string_to_fetch_from)`
     * `reverse(string_to_reverse)`
-
-
-## Demonstrations
-### Opening in PyCharm
-* The purpose of this animation is to demonstrate how to
-    1. clone this project from the Github Web interface to your local machine
-    2. navigate to the root directory of the project
-    3. open the newly cloned project from your local machine in PyCharm
-    4. open a module to be edited (`calculator.py`)
-    5. run corresponding tests for the module to be edited (`calculator_test.py`)
-
-<a href="https://raw.githubusercontent.com/platformps/exercise.python_fundamentals/master/getting-started.gif"><img src="./getting-started.gif"></a>
-    
-    
-### Running Tests From Command Line 
-* The purpose of this animation is to demonstrate how to
-    1. clone this project from the Github Web interface to your local machine
-    2. navigate to the root directory of the project
-    3. using `unittest`, run all python files with a prefix of `_test.py`
-        * `python -m unittest discover -s ./src/test/ -p '*_test.py'`
-        
-<a href="https://raw.githubusercontent.com/platformps/exercise.python_fundamentals/master/run-tests-cli.gif"><img src="./run-tests-cli.gif"></a>
