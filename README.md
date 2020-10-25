@@ -62,3 +62,25 @@
     * `get_first_word(string_to_fetch_from)`
     * `get_second_word(string_to_fetch_from)`
     * `reverse(string_to_reverse)`
+
+
+## Demonstrations
+### Opening in PyCharm
+* The purpose of this animation is to demonstrate how to
+    1. clone this project from the Github Web interface to your local machine
+    2. navigate to the root directory of the project
+    3. open the newly cloned project from your local machine in PyCharm
+    4. open a module to be edited (`calculator.py`)
+    5. run corresponding tests for the module to be edited (`calculator_test.py`)
+
+<a href="./getting-started.gif"><img src="./getting-started.gif"></a>
+    
+    
+### Running Tests From Command Line 
+* The purpose of this animation is to demonstrate how to
+    1. clone this project from the Github Web interface to your local machine
+    2. navigate to the root directory of the project
+    3. using `unittest`, run all python files with a prefix of `_test.py`
+        * `python -m unittest discover -s ./src/test/ -p '*_test.py'`
+        
+<a href="./run-tests-cli.gif"><img src="./run-tests-cli.gif"></a>
