@@ -1,2 +1,9 @@
 language: python
-install: ./install-dependencies.sh
+
+python:
+  - "2.7"
+  - "3.4"
+
+before_install:
+  - pip install pytest-cov
+  - cd python
